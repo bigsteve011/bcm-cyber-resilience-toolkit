@@ -1,0 +1,10 @@
+dependency,type,tier,demonstrated_rto_hours,demonstrated_rpo_minutes,last_dr_test,dr_test_result,ransomware_isolated_backup
+payments-app,application,Tier 1,1.5,5,2026-06-14,pass,yes
+core-banking,application,Tier 1,6,15,2026-03-22,pass_with_issues,yes
+mobile-backend,application,Tier 1,3,30,2026-05-10,pass,no
+kyc-platform,application,Tier 2,12,60,2025-11-02,pass,no
+crm,application,Tier 2,8,60,2026-04-18,pass,yes
+treasury-system,application,Tier 2,10,240,2025-09-01,fail,no
+hr-cloud,saas,Tier 3,48,1440,,not_tested,no
+hypercloud-eu,third_party,Tier 1,4,15,2026-02-01,pass,yes
+payswitch,third_party,Tier 1,2,0,2026-05-30,pass,yes

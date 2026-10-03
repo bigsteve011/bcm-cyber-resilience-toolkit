@@ -1,0 +1,21 @@
+process,owner,dimension,1h,4h,8h,24h,72h,168h,data_loss_tolerance_min,dependencies
+Payments processing,Head of Payments,financial,2,3,4,5,5,5,15,payments-app;core-banking;hypercloud-eu;payswitch
+Payments processing,Head of Payments,regulatory,1,3,4,5,5,5,15,
+Payments processing,Head of Payments,reputational,2,3,4,4,5,5,15,
+Payments processing,Head of Payments,customer,3,3,5,5,5,5,15,
+Online & mobile banking,Head of Digital,financial,1,2,2,3,4,5,60,mobile-backend;core-banking;hypercloud-eu;crm
+Online & mobile banking,Head of Digital,regulatory,1,1,2,3,4,4,60,
+Online & mobile banking,Head of Digital,reputational,2,3,3,4,5,5,60,
+Online & mobile banking,Head of Digital,customer,2,3,4,4,5,5,60,
+Customer onboarding (KYC),Head of Operations,financial,1,1,1,2,3,3,240,kyc-platform;crm
+Customer onboarding (KYC),Head of Operations,regulatory,1,1,1,2,2,3,240,
+Customer onboarding (KYC),Head of Operations,reputational,1,1,1,1,2,3,240,
+Customer onboarding (KYC),Head of Operations,customer,1,1,2,2,3,3,240,
+Treasury & liquidity reporting,Treasurer,financial,1,1,2,3,4,5,60,treasury-system;core-banking
+Treasury & liquidity reporting,Treasurer,regulatory,1,2,3,4,5,5,60,
+Treasury & liquidity reporting,Treasurer,reputational,1,1,1,2,3,4,60,
+Treasury & liquidity reporting,Treasurer,customer,1,1,1,1,1,2,60,
+Payroll,HR Director,financial,1,1,1,1,2,3,1440,hr-cloud
+Payroll,HR Director,regulatory,1,1,1,1,2,3,1440,
+Payroll,HR Director,reputational,1,1,1,1,2,3,1440,
+Payroll,HR Director,customer,1,1,1,1,1,1,1440,
